@@ -1,4 +1,5 @@
 # Microsoft Teams Administration
+<img width="170" height="170" alt="image" src="https://github.com/user-attachments/assets/8eb28d4a-6457-4c2e-988f-1495f6d1bd12" />
 
 ## Scope
 
