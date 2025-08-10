@@ -18,9 +18,6 @@ This guide outlines how to set up Microsoft Teams for organizational use and app
 
 ### 1. Create Teams
 
-Navigation:  
-Microsoft Teams Admin Center → Teams → Manage Teams → + Add
-
 Steps:
 1. Click + Add to create a new Team.
 2. Choose "Create a team from scratch" or "Create from an existing group".
@@ -28,10 +25,9 @@ Steps:
 4. Assign Owner
 5. Set privacy level (Public or Private).
    
-   * Private teams aren't open for everyone to join them and team owners are the only ones that can add members to them.
-         These teams won't show up in search results or in the Teams gallery.
-   
-   * Public teams can be seen by everyone from the Teams gallery and people can join them without getting approval from a team owner.
+   - **Private**: Only team owners can add members. These teams are hidden from search and the Teams gallery.
+   - **Public**: Visible in the Teams gallery. Anyone can join without approval.
+
        
      
 ---
@@ -77,15 +73,14 @@ Note: Naming policies only apply to new groups created after the policy is set.
 > Groups created by administrators via Entra admin center, PowerShell, or Graph API are **not subject to naming policy enforcement**.
 
  Output result:
+ 
+  > The naming format will be automatically applied when users create new Teams backed by Microsoft 365 Groups.
 
  <img width="745" height="735" alt="image" src="https://github.com/user-attachments/assets/d8061580-82a2-4a29-8d2b-b137ee2d9c19" />
 
   ---
   
-### 3. Configure Teams Expiration Policies
-
-Navigation:  
-Microsoft Entra admin center → Groups → Expiration
+### Task 03: Configure Teams Expiration Policies
 
 Steps:
 1. Go to Groups → Expiration.
@@ -94,9 +89,14 @@ Steps:
 4. Configure notification settings for group owners.
 
 Screenshot: 
+<img width="1558" height="733" alt="image" src="https://github.com/user-attachments/assets/02ddd81d-5956-427e-b7e3-26773b294b58" />
 
-Best Practice:  
-Use expiration policies to clean up unused Teams and reduce clutter. Group owners will be notified before deletion and can renew the group.
+Note:  
+Group expiration applies to Microsoft 365 Groups as a whole.  
+> This includes Teams, SharePoint sites, Outlook mailboxes, and Planner plans that are backed by the group.  
+> Expiration does not apply to individual users or standalone services.
+
+---
 
 ## Outcome
 
