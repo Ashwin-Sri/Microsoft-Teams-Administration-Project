@@ -80,7 +80,7 @@ Note: Naming policies only apply to new groups created after the policy is set.
 
   ---
   
-### Task 03: Configure Teams Expiration Policies
+### Task 03: Configure Group Expiration Policies
 
 Steps:
 1. Go to Groups → Expiration.
