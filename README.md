@@ -3,7 +3,7 @@
 
 ## Scope
 
-This repository showcases my validated experience with Microsoft Teams administration, reflecting the depth and rigor of a 2–3 year in-role practitioner. All tasks are executed in a live Microsoft 365 tenant, with annotated screenshots and outcome verification to demonstrate real-world accuracy. PowerShell and compliance/security tasks are intentionally excluded to preserve role authenticity and focus on GUI-native workflows within the Teams Admin Center.
+This repository showcases my validated experience with Microsoft Teams administration. All tasks are executed in a live Microsoft 365 tenant, with annotated screenshots and outcome verification to demonstrate real-world accuracy. PowerShell and compliance/security tasks are intentionally excluded to preserve role authenticity and focus on GUI-native workflows within the Teams Admin Center.
 
 ## Overview
 
